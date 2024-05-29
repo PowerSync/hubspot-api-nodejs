@@ -16,6 +16,7 @@ import QuotesDiscovery from '../../../src/discovery/crm/quotes/QuotesDiscovery'
 import SchemasDiscovery from '../../../src/discovery/crm/schemas/SchemasDiscovery'
 import TicketsDiscovery from '../../../src/discovery/crm/tickets/TicketsDiscovery'
 import TimelineDiscovery from '../../../src/discovery/crm/timeline/TimelineDiscovery'
+import OrdersDiscovery from '../../../src/discovery/crm/orders/OrdersDiscovery';
 
 describe('api client', () => {
   it('is discoverable', () => {
