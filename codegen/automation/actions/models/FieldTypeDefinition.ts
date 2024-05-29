@@ -119,7 +119,6 @@ export enum FieldTypeDefinitionReferencedObjectTypeEnum {
     BetAlert = 'BET_ALERT',
     Portal = 'PORTAL',
     Quote = 'QUOTE',
-    Order = 'ORDER',
     FormSubmissionInbounddb = 'FORM_SUBMISSION_INBOUNDDB',
     Quota = 'QUOTA',
     Unsubscribe = 'UNSUBSCRIBE',
