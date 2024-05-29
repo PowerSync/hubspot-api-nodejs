@@ -34,6 +34,7 @@ describe('api client', () => {
     expect(ProductsDiscovery.name).toBe(client.products.constructor.name)
     expect(PropertiesDiscovery.name).toBe(client.properties.constructor.name)
     expect(QuotesDiscovery.name).toBe(client.quotes.constructor.name)
+    expect(OrdersDiscovery.name).toBe(client.orders.constructor.name)
     expect(SchemasDiscovery.name).toBe(client.schemas.constructor.name)
     expect(TicketsDiscovery.name).toBe(client.tickets.constructor.name)
     expect(TimelineDiscovery.name).toBe(client.timeline.constructor.name)
