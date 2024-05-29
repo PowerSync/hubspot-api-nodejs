@@ -163,7 +163,7 @@ export class ObjectBasicApi {
     }
 
     /**
-     * Create a orders with the given properties and return a copy of the object, including the ID. Documentation and examples for creating standard orderss is provided.
+     * Create a orders with the given properties and return a copy of the object, including the ID. Documentation and examples for creating standard orders is provided.
      * Create
      * @param param the request object
      */
@@ -172,7 +172,7 @@ export class ObjectBasicApi {
     }
 
     /**
-     * Create a orders with the given properties and return a copy of the object, including the ID. Documentation and examples for creating standard orderss is provided.
+     * Create a orders with the given properties and return a copy of the object, including the ID. Documentation and examples for creating standard orders is provided.
      * Create
      * @param param the request object
      */
@@ -199,7 +199,7 @@ export class ObjectBasicApi {
     }
 
     /**
-     * Read a page of orderss. Control what is returned via the `properties` query param.
+     * Read a page of orders. Control what is returned via the `properties` query param.
      * List
      * @param param the request object
      */
@@ -208,7 +208,7 @@ export class ObjectBasicApi {
     }
 
     /**
-     * Read a page of orderss. Control what is returned via the `properties` query param.
+     * Read a page of orders. Control what is returned via the `properties` query param.
      * List
      * @param param the request object
      */
@@ -289,7 +289,7 @@ export class ObjectBatchApi {
     }
 
     /**
-     * Archive a batch of orderss by ID
+     * Archive a batch of orders by ID
      * @param param the request object
      */
     public archiveWithHttpInfo(param: BatchApiArchiveRequest, options?: Configuration): Promise<HttpInfo<void>> {
@@ -297,7 +297,7 @@ export class ObjectBatchApi {
     }
 
     /**
-     * Archive a batch of orderss by ID
+     * Archive a batch of orders by ID
      * @param param the request object
      */
     public archive(param: BatchApiArchiveRequest, options?: Configuration): Promise<void> {
@@ -305,7 +305,7 @@ export class ObjectBatchApi {
     }
 
     /**
-     * Create a batch of orderss
+     * Create a batch of orders
      * @param param the request object
      */
     public createWithHttpInfo(param: BatchApiCreateRequest, options?: Configuration): Promise<HttpInfo<BatchResponseSimplePublicObject | BatchResponseSimplePublicObjectWithErrors>> {
@@ -313,7 +313,7 @@ export class ObjectBatchApi {
     }
 
     /**
-     * Create a batch of orderss
+     * Create a batch of orders
      * @param param the request object
      */
     public create(param: BatchApiCreateRequest, options?: Configuration): Promise<BatchResponseSimplePublicObject | BatchResponseSimplePublicObjectWithErrors> {
@@ -321,7 +321,7 @@ export class ObjectBatchApi {
     }
 
     /**
-     * Read a batch of orderss by internal ID, or unique property values
+     * Read a batch of orders by internal ID, or unique property values
      * @param param the request object
      */
     public readWithHttpInfo(param: BatchApiReadRequest, options?: Configuration): Promise<HttpInfo<BatchResponseSimplePublicObject | BatchResponseSimplePublicObjectWithErrors>> {
@@ -329,7 +329,7 @@ export class ObjectBatchApi {
     }
 
     /**
-     * Read a batch of orderss by internal ID, or unique property values
+     * Read a batch of orders by internal ID, or unique property values
      * @param param the request object
      */
     public read(param: BatchApiReadRequest, options?: Configuration): Promise<BatchResponseSimplePublicObject | BatchResponseSimplePublicObjectWithErrors> {
@@ -337,7 +337,7 @@ export class ObjectBatchApi {
     }
 
     /**
-     * Update a batch of orderss
+     * Update a batch of orders
      * @param param the request object
      */
     public updateWithHttpInfo(param: BatchApiUpdateRequest, options?: Configuration): Promise<HttpInfo<BatchResponseSimplePublicObject | BatchResponseSimplePublicObjectWithErrors>> {
@@ -345,7 +345,7 @@ export class ObjectBatchApi {
     }
 
     /**
-     * Update a batch of orderss
+     * Update a batch of orders
      * @param param the request object
      */
     public update(param: BatchApiUpdateRequest, options?: Configuration): Promise<BatchResponseSimplePublicObject | BatchResponseSimplePublicObjectWithErrors> {
@@ -413,7 +413,7 @@ export class ObjectPublicObjectApi {
     }
 
     /**
-     * Merge two orderss with same type
+     * Merge two orders with same type
      * @param param the request object
      */
     public mergeWithHttpInfo(param: PublicObjectApiMergeRequest, options?: Configuration): Promise<HttpInfo<SimplePublicObject>> {
@@ -421,7 +421,7 @@ export class ObjectPublicObjectApi {
     }
 
     /**
-     * Merge two orderss with same type
+     * Merge two orders with same type
      * @param param the request object
      */
     public merge(param: PublicObjectApiMergeRequest, options?: Configuration): Promise<SimplePublicObject> {

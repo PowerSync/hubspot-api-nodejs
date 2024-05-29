@@ -21,7 +21,7 @@ import { BatchResponseSimplePublicObjectWithErrors } from '../models/BatchRespon
 export class BatchApiRequestFactory extends BaseAPIRequestFactory {
 
     /**
-     * Archive a batch of orderss by ID
+     * Archive a batch of orders by ID
      * @param batchInputSimplePublicObjectId
      */
     public async archive(batchInputSimplePublicObjectId: BatchInputSimplePublicObjectId, _options?: Configuration): Promise<RequestContext> {
@@ -34,7 +34,7 @@ export class BatchApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/crm/v3/objects/orderss/batch/archive';
+        const localVarPath = '/crm/v3/objects/orders/batch/archive';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.POST);
@@ -68,7 +68,7 @@ export class BatchApiRequestFactory extends BaseAPIRequestFactory {
     }
 
     /**
-     * Create a batch of orderss
+     * Create a batch of orders
      * @param batchInputSimplePublicObjectInputForCreate
      */
     public async create(batchInputSimplePublicObjectInputForCreate: BatchInputSimplePublicObjectInputForCreate, _options?: Configuration): Promise<RequestContext> {
@@ -81,7 +81,7 @@ export class BatchApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/crm/v3/objects/orderss/batch/create';
+        const localVarPath = '/crm/v3/objects/orders/batch/create';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.POST);
@@ -115,7 +115,7 @@ export class BatchApiRequestFactory extends BaseAPIRequestFactory {
     }
 
     /**
-     * Read a batch of orderss by internal ID, or unique property values
+     * Read a batch of orders by internal ID, or unique property values
      * @param batchReadInputSimplePublicObjectId
      * @param archived Whether to return only results that have been archived.
      */
@@ -130,7 +130,7 @@ export class BatchApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/crm/v3/objects/orderss/batch/read';
+        const localVarPath = '/crm/v3/objects/orders/batch/read';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.POST);
@@ -169,7 +169,7 @@ export class BatchApiRequestFactory extends BaseAPIRequestFactory {
     }
 
     /**
-     * Update a batch of orderss
+     * Update a batch of orders
      * @param batchInputSimplePublicObjectBatchInput
      */
     public async update(batchInputSimplePublicObjectBatchInput: BatchInputSimplePublicObjectBatchInput, _options?: Configuration): Promise<RequestContext> {
@@ -182,7 +182,7 @@ export class BatchApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/crm/v3/objects/orderss/batch/update';
+        const localVarPath = '/crm/v3/objects/orders/batch/update';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.POST);

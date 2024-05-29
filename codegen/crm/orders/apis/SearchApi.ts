@@ -29,7 +29,7 @@ export class SearchApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/crm/v3/objects/orderss/search';
+        const localVarPath = '/crm/v3/objects/orders/search';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.POST);

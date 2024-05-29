@@ -51,7 +51,7 @@ export class PromiseBasicApi {
     }
 
     /**
-     * Create a orders with the given properties and return a copy of the object, including the ID. Documentation and examples for creating standard orderss is provided.
+     * Create a orders with the given properties and return a copy of the object, including the ID. Documentation and examples for creating standard orders is provided.
      * Create
      * @param simplePublicObjectInputForCreate
      */
@@ -61,7 +61,7 @@ export class PromiseBasicApi {
     }
 
     /**
-     * Create a orders with the given properties and return a copy of the object, including the ID. Documentation and examples for creating standard orderss is provided.
+     * Create a orders with the given properties and return a copy of the object, including the ID. Documentation and examples for creating standard orders is provided.
      * Create
      * @param simplePublicObjectInputForCreate
      */
@@ -101,7 +101,7 @@ export class PromiseBasicApi {
     }
 
     /**
-     * Read a page of orderss. Control what is returned via the `properties` query param.
+     * Read a page of orders. Control what is returned via the `properties` query param.
      * List
      * @param limit The maximum number of results to display per page.
      * @param after The paging cursor token of the last successfully read resource will be returned as the &#x60;paging.next.after&#x60; JSON property of a paged response containing more results.
@@ -116,7 +116,7 @@ export class PromiseBasicApi {
     }
 
     /**
-     * Read a page of orderss. Control what is returned via the `properties` query param.
+     * Read a page of orders. Control what is returned via the `properties` query param.
      * List
      * @param limit The maximum number of results to display per page.
      * @param after The paging cursor token of the last successfully read resource will be returned as the &#x60;paging.next.after&#x60; JSON property of a paged response containing more results.
@@ -174,7 +174,7 @@ export class PromiseBatchApi {
     }
 
     /**
-     * Archive a batch of orderss by ID
+     * Archive a batch of orders by ID
      * @param batchInputSimplePublicObjectId
      */
     public archiveWithHttpInfo(batchInputSimplePublicObjectId: BatchInputSimplePublicObjectId, _options?: Configuration): Promise<HttpInfo<void>> {
@@ -183,7 +183,7 @@ export class PromiseBatchApi {
     }
 
     /**
-     * Archive a batch of orderss by ID
+     * Archive a batch of orders by ID
      * @param batchInputSimplePublicObjectId
      */
     public archive(batchInputSimplePublicObjectId: BatchInputSimplePublicObjectId, _options?: Configuration): Promise<void> {
@@ -192,7 +192,7 @@ export class PromiseBatchApi {
     }
 
     /**
-     * Create a batch of orderss
+     * Create a batch of orders
      * @param batchInputSimplePublicObjectInputForCreate
      */
     public createWithHttpInfo(batchInputSimplePublicObjectInputForCreate: BatchInputSimplePublicObjectInputForCreate, _options?: Configuration): Promise<HttpInfo<BatchResponseSimplePublicObject | BatchResponseSimplePublicObjectWithErrors>> {
@@ -201,7 +201,7 @@ export class PromiseBatchApi {
     }
 
     /**
-     * Create a batch of orderss
+     * Create a batch of orders
      * @param batchInputSimplePublicObjectInputForCreate
      */
     public create(batchInputSimplePublicObjectInputForCreate: BatchInputSimplePublicObjectInputForCreate, _options?: Configuration): Promise<BatchResponseSimplePublicObject | BatchResponseSimplePublicObjectWithErrors> {
@@ -210,7 +210,7 @@ export class PromiseBatchApi {
     }
 
     /**
-     * Read a batch of orderss by internal ID, or unique property values
+     * Read a batch of orders by internal ID, or unique property values
      * @param batchReadInputSimplePublicObjectId
      * @param archived Whether to return only results that have been archived.
      */
@@ -220,7 +220,7 @@ export class PromiseBatchApi {
     }
 
     /**
-     * Read a batch of orderss by internal ID, or unique property values
+     * Read a batch of orders by internal ID, or unique property values
      * @param batchReadInputSimplePublicObjectId
      * @param archived Whether to return only results that have been archived.
      */
@@ -230,7 +230,7 @@ export class PromiseBatchApi {
     }
 
     /**
-     * Update a batch of orderss
+     * Update a batch of orders
      * @param batchInputSimplePublicObjectBatchInput
      */
     public updateWithHttpInfo(batchInputSimplePublicObjectBatchInput: BatchInputSimplePublicObjectBatchInput, _options?: Configuration): Promise<HttpInfo<BatchResponseSimplePublicObject | BatchResponseSimplePublicObjectWithErrors>> {
@@ -239,7 +239,7 @@ export class PromiseBatchApi {
     }
 
     /**
-     * Update a batch of orderss
+     * Update a batch of orders
      * @param batchInputSimplePublicObjectBatchInput
      */
     public update(batchInputSimplePublicObjectBatchInput: BatchInputSimplePublicObjectBatchInput, _options?: Configuration): Promise<BatchResponseSimplePublicObject | BatchResponseSimplePublicObjectWithErrors> {
@@ -306,7 +306,7 @@ export class PromisePublicObjectApi {
     }
 
     /**
-     * Merge two orderss with same type
+     * Merge two orders with same type
      * @param publicMergeInput
      */
     public mergeWithHttpInfo(publicMergeInput: PublicMergeInput, _options?: Configuration): Promise<HttpInfo<SimplePublicObject>> {
@@ -315,7 +315,7 @@ export class PromisePublicObjectApi {
     }
 
     /**
-     * Merge two orderss with same type
+     * Merge two orders with same type
      * @param publicMergeInput
      */
     public merge(publicMergeInput: PublicMergeInput, _options?: Configuration): Promise<SimplePublicObject> {

@@ -30,7 +30,7 @@ export class GDPRApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/crm/v3/objects/orderss/gdpr-delete';
+        const localVarPath = '/crm/v3/objects/orders/gdpr-delete';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.POST);

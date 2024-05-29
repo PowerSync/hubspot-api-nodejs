@@ -34,7 +34,7 @@ export class BasicApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/crm/v3/objects/orderss/{ordersId}'
+        const localVarPath = '/crm/v3/objects/orders/{ordersId}'
             .replace('{' + 'ordersId' + '}', encodeURIComponent(String(ordersId)));
 
         // Make Request Context
@@ -58,7 +58,7 @@ export class BasicApiRequestFactory extends BaseAPIRequestFactory {
     }
 
     /**
-     * Create a orders with the given properties and return a copy of the object, including the ID. Documentation and examples for creating standard orderss is provided.
+     * Create a orders with the given properties and return a copy of the object, including the ID. Documentation and examples for creating standard orders is provided.
      * Create
      * @param simplePublicObjectInputForCreate
      */
@@ -72,7 +72,7 @@ export class BasicApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/crm/v3/objects/orderss';
+        const localVarPath = '/crm/v3/objects/orders';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.POST);
@@ -130,7 +130,7 @@ export class BasicApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/crm/v3/objects/orderss/{ordersId}'
+        const localVarPath = '/crm/v3/objects/orders/{ordersId}'
             .replace('{' + 'ordersId' + '}', encodeURIComponent(String(ordersId)));
 
         // Make Request Context
@@ -179,7 +179,7 @@ export class BasicApiRequestFactory extends BaseAPIRequestFactory {
     }
 
     /**
-     * Read a page of orderss. Control what is returned via the `properties` query param.
+     * Read a page of orders. Control what is returned via the `properties` query param.
      * List
      * @param limit The maximum number of results to display per page.
      * @param after The paging cursor token of the last successfully read resource will be returned as the &#x60;paging.next.after&#x60; JSON property of a paged response containing more results.
@@ -198,7 +198,7 @@ export class BasicApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/crm/v3/objects/orderss';
+        const localVarPath = '/crm/v3/objects/orders';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.GET);
@@ -274,7 +274,7 @@ export class BasicApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/crm/v3/objects/orderss/{ordersId}'
+        const localVarPath = '/crm/v3/objects/orders/{ordersId}'
             .replace('{' + 'ordersId' + '}', encodeURIComponent(String(ordersId)));
 
         // Make Request Context
