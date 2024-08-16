@@ -1,9 +1,9 @@
-import { BasicApi, BatchApi, GDPRApi, PublicObjectApi, SearchApi } from '../../../../codegen/crm/orders/index'
+import { BasicApi, BatchApi, GDPRApi, PublicObjectApi, SearchApi } from '../../../../codegen/crm/carts/index'
 import { Client } from '../../../../index'
 
 describe('api client', () => {
   it('is discoverable', () => {
-    const client = new Client().crm.orders
+    const client = new Client().crm.carts
     expect(client.hasOwnProperty('basicApi')).toBeTruthy()
     expect(BasicApi.name).toBe(client.basicApi.constructor.name)
     expect(client.hasOwnProperty('batchApi')).toBeTruthy()

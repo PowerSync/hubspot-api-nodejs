@@ -17,6 +17,7 @@ import SchemasDiscovery from '../../../src/discovery/crm/schemas/SchemasDiscover
 import TicketsDiscovery from '../../../src/discovery/crm/tickets/TicketsDiscovery'
 import TimelineDiscovery from '../../../src/discovery/crm/timeline/TimelineDiscovery'
 import OrdersDiscovery from '../../../src/discovery/crm/orders/OrdersDiscovery';
+import CartsDiscovery from '../../../src/discovery/crm/carts/CartsDiscovery';
 
 describe('api client', () => {
   it('is discoverable', () => {
@@ -36,6 +37,7 @@ describe('api client', () => {
     expect(PropertiesDiscovery.name).toBe(client.properties.constructor.name)
     expect(QuotesDiscovery.name).toBe(client.quotes.constructor.name)
     expect(OrdersDiscovery.name).toBe(client.orders.constructor.name)
+    expect(CartsDiscovery.name).toBe(client.carts.constructor.name)
     expect(SchemasDiscovery.name).toBe(client.schemas.constructor.name)
     expect(TicketsDiscovery.name).toBe(client.tickets.constructor.name)
     expect(TimelineDiscovery.name).toBe(client.timeline.constructor.name)

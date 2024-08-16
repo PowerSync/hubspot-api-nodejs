@@ -14,6 +14,7 @@ import type ProductsDiscovery from './products/ProductsDiscovery'
 import type PropertiesDiscovery from './properties/PropertiesDiscovery'
 import type QuotesDiscovery from './quotes/QuotesDiscovery'
 import type OrdersDiscovery from './orders/OrdersDiscovery'
+import type CartsDiscovery from './carts/CartsDiscovery'
 import type SchemasDiscovery from './schemas/SchemasDiscovery'
 import type TicketsDiscovery from './tickets/TicketsDiscovery'
 import type TimelineDiscovery from './timeline/TimelineDiscovery'
@@ -34,6 +35,7 @@ export default class CrmDiscovery extends BaseDiscovery {
   protected _properties: PropertiesDiscovery | undefined
   protected _quotes: QuotesDiscovery | undefined
   protected _orders: OrdersDiscovery | undefined
+  protected _carts: CartsDiscovery | undefined
   protected _schemas: SchemasDiscovery | undefined
   protected _tickets: TicketsDiscovery | undefined
   protected _timeline: TimelineDiscovery | undefined
@@ -230,6 +232,19 @@ export default class CrmDiscovery extends BaseDiscovery {
     }
 
     return this._orders
+  }
+
+  /**
+   * Getter
+   * @returns CartsDiscovery
+   */
+  get carts() {
+    if (!this._carts) {
+      const requiredClass = require('./carts/CartsDiscovery')
+      this._carts = new requiredClass.default(this.config) as CartsDiscovery
+    }
+
+    return this._carts
   }
 
   /**
