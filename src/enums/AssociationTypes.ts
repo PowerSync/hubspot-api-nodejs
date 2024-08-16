@@ -110,4 +110,12 @@ export enum AssociationTypes {
   postalMailToCompany = 459,
   companyToPostalMail = 460,
   contactSigner = 702,
+  cartToContact=586,
+  cartToDiscount=588,
+  cartToLineItem=590,
+  cartToOrder=592,
+  cartToQuote=732,
+  cartToTask=728,
+  cartToTicket=594,
+  orderToCart
 }
