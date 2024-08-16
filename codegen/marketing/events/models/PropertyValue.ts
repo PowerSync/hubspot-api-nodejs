@@ -220,6 +220,7 @@ export enum PropertyValueSourceEnum {
     ContentMembership = 'CONTENT_MEMBERSHIP',
     Quotes = 'QUOTES',
     Orders = 'ORDERS',
+    Carts = 'CARTS',
     BetAssignment = 'BET_ASSIGNMENT',
     Quotas = 'QUOTAS',
     BetCrmConnector = 'BET_CRM_CONNECTOR',
